@@ -10,10 +10,10 @@ XAMPP server
 2. Put Apartment folder inside root directory
 ## Database Configuration
 Open phpmyadmin
-Create Database apt_db
-Import database apt_db.sql (available inside zip package)
+### Create Database apt_db
+### Import database apt_db.sql (available inside zip package)
 
 ## Registered User
 Open Your browser put inside browser “http://localhost/Aprtment/login.html”
-User Name: admin
-Password : admin
+### User Name: admin
+### Password : admin
