@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Enter Data</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<script>
+    
+ function back()
+    {
+      window.location.replace('Menu.html');
+    }
+
+</script>
+
+<body>
+
+<button type="submit" onclick="back()">Back</button>
+
+<form class = "box" action="Insert.php" method="post">
+
+	<h1>INSERT DETAILS</h1>
+	
+	<button type="submit" name="building">Building</button>
+	<button type="submit" name="apt">Apartment</button>
+	<button type="submit" name="owner">Owner</button>
+	<button type="submit" name="lease">Lease</button>
+	<button type="submit" name="rent">Rent</button>
+ 
+</form>
+</body>
+</html>

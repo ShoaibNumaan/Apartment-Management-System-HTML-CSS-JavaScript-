@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insert Owner</title>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<script>
+    
+ function home()
+    {
+      window.location.replace('Menu.html');
+    }
+
+ function back()
+    {
+      window.location.replace('Insert.html');
+    }   
+
+</script>
+
+
+<body>
+
+<button type="submit" onclick="home()">Home</button>
+
+<button type="submit" onclick="back()">Back</button>
+
+<form class="box" action="ins_owner.php" method="post">
+
+	<h1>Add Owner Details</h1>
+
+	<input type="text" name="o_id" placeholder="Owner ID" required=""><br> 
+
+	<input type="text" name="apt_id" placeholder="Apartment ID" required=""><br>
+
+	<input type="text" name="o_name" placeholder="Owner Name" required=""><br>
+
+	<label>Date of birth</label><br>
+    <input type="date" name="dob" placeholder="Date of birth" required=""><br>
+
+	<input type="text" name="gender" placeholder="Gender" required=""><br>
+
+	<input type="text" name="ocp" placeholder="Owner Occupation" required=""><br>
+
+	<input type="text" name="phone" placeholder="Phone Number" required=""><br>
+
+
+	<button type="submit">Submit</button>
+
+</form>	
+
+</body>
+</html>

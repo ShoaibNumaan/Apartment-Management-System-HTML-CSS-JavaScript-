@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apartment DB</title>
+	
+	<style>
+
+
+		body{
+			 background-image: url("Img/backg.jpg");
+			 background-repeat:no-repeat;
+			 background-size: cover;
+		}
+div.background {
+  padding: 30px ;
+  height: 170px; width: 700px;
+  border: 10px solid #F95633;
+  background: #191919;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.btn {
+  text-align: center;
+	background: none;
+	padding: 14px 20px;
+	margin: 8px 0;
+	cursor: pointer;
+	border: 2px solid #F95633; 
+	width: 100%;
+	border-radius: 50px;
+	color: white;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button{
+	text-align: center;
+	background: none;
+	padding: 14px 20px;
+	margin: 8px 0;
+	cursor: pointer;
+	border: 2px solid #F95633; 
+	width: 100%;
+	border-radius: 50px;
+	color: white;
+}
+button:hover {
+	background: #F95633;
+}
+
+h1 {
+	 font-family: verdana;
+	 text-align: center;
+	 color: white;
+	 font-size:4vw;
+}
+img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50px;
+	border: 5px solid #F95633;
+	margin-left: auto;
+	margin-right:  auto;
+	display: block;
+	margin-bottom: 30px;
+
+}
+
+input{
+
+	width: 100%;
+	margin-left: 0px auto;
+	margin-right: 0px auto;
+	height: 40px;
+	padding: 12px 20px;
+	size: 10%;
+	display: inline-block;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	margin-bottom: 25px; 
+}
+
+</style>
+</head>
+<body>
+	<h1 title="By Shoaib And Imaad">
+		
+		 <bold>APARTMENT MANAGEMENT SYSTEM</bold>
+	
+	</h1>
+	<img src="Img/logo.jpg" alt="LOGO">
+<div class="background">
+<form action="login.php" method="post">
+	
+	<input type="text" name="username" placeholder="ENTER USER ID" required> <br>
+	<input type="password" name="password" placeholder="ENTER PASSWORD" required><br>
+    <button type="submit" class="btn" style="vertical-align:middle"><span>LOGIN</span></button>
+    
+</form>
+
+</div>
+
+</body>
+</html>

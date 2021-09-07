@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insert Building</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<script>
+	
+	 function home()
+    {
+      window.location.replace('Menu.html');
+    }	
+    
+     function back()
+    {
+      window.location.replace('Insert.html');
+    }	
+    
+
+</script>
+<body>
+
+<button type="submit" onclick="home()">Home</button>
+
+<button type="submit" onclick="back()">Back</button>
+
+<form class="box" action="ins_building.php" method="post">
+
+	<h1>Add Building Details</h1>
+	
+	<input type="text" name="b_name" placeholder="Building Name" required=""><br>
+
+	<input type="text" name="b_id" placeholder="Building ID" required=""><br> 
+
+	<input type="text" name="no_of_apts" placeholder="Number Of Apartments" required=""><br>
+
+	<button type="submit">Submit</button>
+
+</form>	
+
+</body>
+</html>

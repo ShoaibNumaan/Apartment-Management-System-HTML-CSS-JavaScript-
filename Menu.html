@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Menu</title>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<script>
+    
+ function logout()
+    {
+      window.location.replace('login.html');
+    }
+
+</script>
+
+
+<body>
+
+	<button type="submit" onclick="logout()">Logout</button>
+
+	
+ <form class="box" action="Menu.php" method="post">
+ 	<h1>
+		Menu
+	</h1>
+
+ 	<button type="submit" name="insert">Insert Data</button>
+ 	
+	<button type="submit" name="show">Show Data</button>
+ 	
+ </form>	 
+
+</body>
+</html>

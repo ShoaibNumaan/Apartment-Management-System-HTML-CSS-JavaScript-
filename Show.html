@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Show Data</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+</head>
+
+<script>
+    
+ function back()
+    {
+      window.location.replace('Menu.html');
+    }
+
+</script>
+
+<body>
+
+<button type="submit" onclick="back()">Back</button>
+
+<form class = "box" action="Show.php" method="post">
+
+	<h1>SHOW DETAILS</h1>
+	
+	<button type="submit" name="building">Building</button>
+	<button type="submit" name="apt">Apartment</button>
+	<button type="submit" name="owner">Owner</button>
+	<button type="submit" name="lease">Lease</button>
+	<button type="submit" name="rent">Rent</button>
+	<button type="submit" name="logs">Apartment Logs</button>
+ 
+</form>
+
+<script>
+		function myfunction()
+		{
+			window.location.replace('Menu.html');
+		}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Insert Rent</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<script>
+    
+ function home()
+    {
+      window.location.replace('Menu.html');
+    }
+ function back()
+    {
+      window.location.replace('Insert.html');
+    }
+
+</script>
+
+<button type="submit" onclick="home()">Home</button>
+
+<button type="submit" onclick="back()">Back</button>
+
+<body>
+
+<form class="box" action="ins_rent.php" method="post">
+
+    <h1>Add Rent Details</h1>
+    
+    <input type="text" name="rent_id" placeholder="Rent ID" required=""><br>
+
+    <input type="text" name="apt_id" placeholder="Apartment ID" required=""><br> 
+
+    <input type="text" name="rent_fee" placeholder="Rent Fee" required=""><br>
+
+    <input type="text" name="late_fee" placeholder="Late Fee" required=""><br>
+    <label>Due Date</label><br>
+    <input type="date" name="due_date" placeholder="Due Date" required=""><br>
+
+    <button type="submit">Submit</button>
+
+</form> 
+
+</body>
+</html>

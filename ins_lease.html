@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insert Owner</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">    
+
+</head>
+
+<script>
+    
+ function home()
+    {
+      window.location.replace('Menu.html');
+    }
+ function back()
+    {
+      window.location.replace('Insert.html');
+    }   
+       
+
+</script>
+
+<body>
+
+<button type="submit" onclick="home()">Home</button>
+
+<button type="submit" onclick="back()">Back</button>
+
+<form class="box" action="ins_lease.php" method="post">
+
+    <h1>Add Lease Details</h1>
+    
+    <input type="text" name="lease_id" placeholder="Lease ID" required=""><br>
+
+    <input type="text" name="apt_id" placeholder="Apartment ID" required=""><br> 
+
+    <input type="text" name="deposit" placeholder="Deposit" required=""><br>
+    <label>Start Date</label><br>
+    <input type="date" name="start_date" placeholder="Start Date" required=""><br>
+    <label>End Date</label><br>
+    <input type="date" name="end_date" placeholder="End Date" required=""><br>
+
+    <button type="submit">Submit</button>
+
+</form> 
+
+</body>
+</html>

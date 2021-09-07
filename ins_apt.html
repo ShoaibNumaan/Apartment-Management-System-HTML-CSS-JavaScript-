@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insert Apartment</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<script>
+	 function home()
+    {
+      window.location.replace('Menu.html');
+    }
+
+     function back()
+    {
+      window.location.replace('Insert.html');
+    }
+</script>
+
+<body>
+
+<button type="submit" onclick="home()">Home</button>
+
+<button type="submit" onclick="back()">Back</button>
+
+
+<form class="box" action="ins_apt.php" method="post">
+
+	<h1>Add Apartment Details</h1>
+	
+	<input type="text" name="apt_id" placeholder="Apartment ID" required=""><br>
+
+	<input type="text" name="b_id" placeholder="Building ID" required=""><br> 
+
+	<input type="text" name="price" placeholder="Price" required=""><br>
+
+	<input type="text" name="no_of_rooms" placeholder="Number Of Rooms" required=""><br>
+
+	<input type="text" name="apt_for" placeholder="Apartment for [Sale/Lease/Rent]" required=""><br>
+
+	<button type="submit">Submit</button>
+
+</form>	
+
+</body>
+</html>
